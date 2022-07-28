@@ -26,11 +26,11 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 text-center flex flex-col">
+            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 Coffee Shop
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-4 text-center">
                 <a href="https://coffee-shop-bstn.netlify.app/index.html" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -42,7 +42,7 @@ const Work = () => {
                   </button> */}
                 </a>
               </div>
-              <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
+              <p className="text-center mt-4">HTML | CSS</p>
             </div>
             </div>
           </div>
@@ -52,11 +52,11 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 flex flex-col">
+            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center ">
                 Travel Site
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-4 text-center">
                 <a href="https://travel-site-bstn.netlify.app/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -79,11 +79,11 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 flex flex-col">
+            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 Bandsite
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-4 text-center">
                 <a href="https://bandsite-project.netlify.app/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -105,11 +105,11 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center flex flex-col">
                 BrainFlix
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-4 text-center">
                 <a href="https://brainflix-bstn.netlify.app/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -132,11 +132,11 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center flex flex-col">
                 InStock Group Project
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-4 text-center">
                 <a href="https://instock-project.herokuapp.com/inventory" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -158,11 +158,11 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center flex flex-col">
                 SkyBall Captsone
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-4 text-center">
                 <a href="https://skyball.netlify.app" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -174,7 +174,7 @@ const Work = () => {
                   </button>
                 </a> */}
               </div>
-              <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
+              <p className="text-center mt-4">HTML | CSS | JS | React | Firebase</p>
             </div>
             </div>
           </div>
