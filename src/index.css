@@ -28,3 +28,10 @@
         rgba(0, 0, 0, 0.8)   
     )!important;
 }
+
+.grid-height {
+    min-height:32.25rem;
+}
+
+
+

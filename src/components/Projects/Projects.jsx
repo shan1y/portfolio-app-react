@@ -11,7 +11,7 @@ function Projects() {
   return (
     <>
      {/* Container */}
-     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 min-h-516">
      {/* Grid Item */}
      <div
        style={{ backgroundImage: `url(${coffee})` }}
@@ -30,9 +30,9 @@ function Projects() {
              </button>
            </a>
            <a href="/">
-             {/* <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                Code
-             </button> */}
+             </button>
            </a>
          </div>
          <p className="text-center mt-4">HTML | CSS</p>
@@ -56,9 +56,9 @@ function Projects() {
              </button>
            </a>
            <a href="/">
-             {/* <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                Code
-             </button> */}
+             </button>
            </a>
          </div>
          <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
@@ -82,11 +82,11 @@ function Projects() {
                Demo
              </button>
            </a>
-           {/* <a href="https://bandsite-project.netlify.app/">
+           <a href="https://bandsite-project.netlify.app/">
              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                Code
              </button>
-           </a> */}
+           </a>
          </div>
          <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
        </div>
@@ -108,11 +108,11 @@ function Projects() {
                Demo
              </button>
            </a>
-           {/* <a href="/https://brainflix-bstn.netlify.app/">
+           <a href="/https://brainflix-bstn.netlify.app/">
              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                Code
              </button>
-           </a> */}
+           </a>
          </div>
          <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
        </div>
@@ -135,11 +135,11 @@ function Projects() {
                Demo
              </button>
            </a>
-           {/* <a href="/">
+           <a href="/">
              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                Code
              </button>
-           </a> */}
+           </a>
          </div>
          <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
        </div>
@@ -161,11 +161,11 @@ function Projects() {
                Demo
              </button>
            </a>
-           {/* <a href="/">
+           <a href="/">
              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                Code
              </button>
-           </a> */}
+           </a>
          </div>
          <p className="text-center mt-4">HTML | CSS | JS | React | Firebase</p>
        </div>

@@ -17,7 +17,7 @@ const Work = () => {
         </div>
         <Link to="/">Projects</Link>
         <Link to="/hackathons">Hackathons</Link>
-        <Link to="/projects">APIs</Link>
+        <Link to="/apis">APIs</Link>
           <Switch>
             <Route exact path="/">
               <Projects />
