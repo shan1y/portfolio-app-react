@@ -1,7 +1,7 @@
 import React from "react";
 import Projects from "./Projects/Projects";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Hackathons from "./Projects/Hackathons";
+import Hackathons from "./ProjectComponents/Hackathons";
 import API from "./Projects/API";
 
 const Work = () => {
