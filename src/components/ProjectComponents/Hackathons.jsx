@@ -3,6 +3,7 @@ import horoscope from '../../assets/projectImages/horoscope.png'
 import characters from '../../assets/projectImages/meet-the-characters.png'
 import bmo from '../../assets/projectImages/bmohackathon.png'
 
+
 function Hackathons() {
   return (
     <div> {/* Container */}
