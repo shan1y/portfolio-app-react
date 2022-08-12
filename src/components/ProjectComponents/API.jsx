@@ -17,7 +17,7 @@ function API() {
               </span>
               <div className="pt-4 text-center">
                 <a
-                  href="https://mini-hackathon-horoscope.netlify.app/"
+                  href="https://brainflix-api.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
