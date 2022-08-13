@@ -1,12 +1,16 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+AOS.init();
 
 const Home = () => {
   return (
-    <div name="home" className="w-full md:h-screen lg:h-screen bg-[#0a192f]">
+    <div name="home"  className="w-full h-screen md:h-screen lg:h-screen bg-[#0a192f]">
       {/* Container */}
-      <div className="max-w-[1000px] pt-32 mx-auto px-8 flex flex-col justify-center h-full">
+      <div  className="max-w-[1000px]   mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-pink-600">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Shannon Yazdani
