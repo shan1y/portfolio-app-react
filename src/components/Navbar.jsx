@@ -45,7 +45,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="work"  spy={true} smooth={true} duration={500}>
+          <Link to="work"  spy={true} offset={-100} smooth={true} duration={500}>
             Work
           </Link>
         </li>

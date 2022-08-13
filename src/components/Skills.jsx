@@ -9,12 +9,17 @@ import FireBase from "../assets/firebase.png";
 import MySQL from "../assets/mysql.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+AOS.init();
+
 
 const Skills = () => {
   return (
     <div name="skills" className="w-full md:h-screen bg-[#0a192f] text-gray-300">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full" data-aos-duration="2000" data-aos="fade-up">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             Skills
