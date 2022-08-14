@@ -2,12 +2,16 @@ import React from 'react'
 import horoscope from '../../assets/projectImages/horoscope.png'
 import characters from '../../assets/projectImages/meet-the-characters.png'
 import bmo from '../../assets/projectImages/bmohackathon.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+AOS.init();
 
 
 function Hackathons() {
   return (
     <div> {/* Container */}
-    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-height">
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-height" data-aos-duration="1000" data-aos="fade-left">
     {/* Grid Item */}
     <div
       style={{ backgroundImage: `url(${horoscope})` }}
@@ -17,7 +21,7 @@ function Hackathons() {
       <div class="content-div h-full w-full flex flex-col justify-center">
       <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
         <span className="text-2xl font-bold text-white tracking-wider text-center">
-          Coffee Shop
+          Daily Horoscope
         </span>
         <div className="pt-4 text-center">
           <a href="https://mini-hackathon-horoscope.netlify.app/" rel="noopener noreferrer" target="_blank">

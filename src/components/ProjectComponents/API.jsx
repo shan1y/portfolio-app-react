@@ -1,10 +1,14 @@
 import React from "react";
 import api from "../../assets/projectImages/brainflixapi.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+AOS.init();
 
 function API() {
   return (
     <div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-height">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-height" data-aos-duration="1000" data-aos="fade-left">
         <div
           style={{ backgroundImage: `url(${api})` }}
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image--api"

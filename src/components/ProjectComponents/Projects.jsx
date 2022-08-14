@@ -5,13 +5,17 @@ import travelsite from "../../assets/projectImages/travelsite.png";
 import brainflix from "../../assets/projectImages/brainflix.png";
 import instock from "../../assets/projectImages/instock.png";
 import skyball from "../../assets/projectImages/skyball.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+AOS.init();
 
 
 function Projects() {
   return (
     <>
      {/* Container */}
-     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 min-h-516">
+     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 min-h-516" data-aos-duration="1000" data-aos="fade-left">
      {/* Grid Item */}
      <div
        style={{ backgroundImage: `url(${coffee})` }}
