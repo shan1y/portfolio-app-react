@@ -1,8 +1,8 @@
 import React from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-AOS.init()
+AOS.init();
 
 const Contact = () => {
   return (
@@ -10,7 +10,9 @@ const Contact = () => {
       name="contact"
       className="w-full md:h-screen bg-[#0a192f] flex justify-center items-center p-4"
     >
-      <form data-aos-duration="1000" data-aos="fade-up"
+      <form
+        data-aos-duration="1000"
+        data-aos="fade-up"
         method="POST"
         action="https://getform.io/f/5b7a8336-8523-4dd7-afd2-123ddb0263d5"
         className="flex flex-col max-w-[600px] w-full"
@@ -20,8 +22,9 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
-            shannonyazdani@gmail.com
+            If you're looking for someone who’s highly motivated and who enjoys
+            being pushed creatively, let's chat! Submit the form below or shoot
+            me an e-mail - shannonyazdani@gmail.com
           </p>
         </div>
         <input

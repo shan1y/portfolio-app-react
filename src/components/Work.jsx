@@ -18,7 +18,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Projects
           </p>
-          <p className="pt-6">// Check out some of my recent work</p>
+          <p className="pt-6">Check out some of my recent work:</p>
         </div>
         <div className="flex gap-x-10 py-2">
         <Link class="hover:text-[#DB2777]" to="/">Projects</Link>
