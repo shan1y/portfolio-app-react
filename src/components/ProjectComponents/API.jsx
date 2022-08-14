@@ -8,7 +8,7 @@ AOS.init();
 function API() {
   return (
     <div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-height" data-aos-duration="1000" data-aos="fade-left">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 grid-height">
         <div
           style={{ backgroundImage: `url(${api})` }}
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image--api"
