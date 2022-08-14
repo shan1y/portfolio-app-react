@@ -21,9 +21,9 @@ const Work = () => {
           <p className="pt-6">// Check out some of my recent work</p>
         </div>
         <div className="flex gap-x-10 py-2">
-        <Link to="/">Projects</Link>
-        <Link to="/hackathons">Hackathons</Link>
-        <Link to="/apis">APIs</Link>
+        <Link class="hover:text-[#DB2777]" to="/">Projects</Link>
+        <Link class="hover:text-[#DB2777]" to="/hackathons">Hackathons</Link>
+        <Link class="hover:text-[#DB2777]" to="/apis">APIs</Link>
         </div>
           <Switch>
             <Route exact path="/">

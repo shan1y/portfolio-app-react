@@ -20,37 +20,39 @@ const Navbar = () => {
   return (
     <div className="fixed z-10 w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
+        <a href="/">
         <img
           src={Logo}
           alt="Logo Image"
           style={{ height:"80px", transform: "translateX(-25px) " }}
         />
+        </a>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" spy={true}  smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]"to="home"   smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" spy={true} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" to="skills"  smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work"  spy={true} offset={-100} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" to="work"  offset={-100} smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact" spy={true} smooth={true} duration={500}>
+          <Link  class="hover:text-[#DB2777]" to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -70,31 +72,31 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" offset={-80} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" onClick={handleClick} to="home" offset={-80} smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="about" offset={-80} smooth={true} duration={500}>
+          <Link  class="hover:text-[#DB2777]" onClick={handleClick} to="about" offset={-80} smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="skills" offset={-80} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" onClick={handleClick} to="skills" offset={-80} smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="work" offset={-80} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" onClick={handleClick} to="work" offset={-80} smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="contact"  offset={-80}smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" onClick={handleClick} to="contact"  offset={-80}smooth={true} duration={500}>
             Contact
           </Link>
         </li>

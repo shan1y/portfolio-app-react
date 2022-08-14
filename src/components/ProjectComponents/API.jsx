@@ -17,7 +17,7 @@ function API() {
           <div class="content-div h-full w-full flex flex-col justify-center">
             <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
-                Coffee Shop
+                BrainFlix API Docs
               </span>
               <div className="pt-4 text-center">
                 <a
