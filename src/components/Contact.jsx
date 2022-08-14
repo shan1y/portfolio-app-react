@@ -24,7 +24,7 @@ const Contact = () => {
           <p className="text-gray-300 py-4">
             If you're looking for someone who’s highly motivated and who enjoys
             being pushed creatively, let's chat! Submit the form below or shoot
-            me an e-mail - shannonyazdani@gmail.com
+            me an e-mail - shannonyazdani at gmail.com
           </p>
         </div>
         <input
