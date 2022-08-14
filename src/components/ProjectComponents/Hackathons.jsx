@@ -29,13 +29,13 @@ function Hackathons() {
               Demo
             </button>
           </a>
-          <a href="/">
+          <a href="https://github.com/shan1y/horoscope-mini-hackathon"  target="_blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Code
             </button>
           </a>
         </div>
-        <p className="text-center mt-4">HTML | CSS</p>
+        <p className="text-center mt-4">HTML | CSS | API</p>
       </div>
       </div>
     </div>
@@ -55,7 +55,7 @@ function Hackathons() {
               Demo
             </button>
           </a>
-          <a href="/">
+          <a href="https://github.com/shan1y/meet-the-characters-hackathon-netlify"  target="_blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Code
             </button>
@@ -82,13 +82,13 @@ function Hackathons() {
               Demo
             </button>
           </a>
-          <a href="https://bmo-industry-hackathon.herokuapp.com/">
+          <a href="https://github.com/shan1y/industry-hackathon-deployed" target="_blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Code
             </button>
           </a>
         </div>
-        <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
+        <p className="text-center mt-4">HTML | CSS | JS | React</p>
       </div>
       </div>
     </div>
