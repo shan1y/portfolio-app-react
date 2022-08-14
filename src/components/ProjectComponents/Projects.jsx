@@ -65,7 +65,7 @@ function Projects() {
              </button>
            </a>
          </div>
-         <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
+         <p className="text-center mt-4">HTML | CSS </p>
        </div>
        </div>
      </div>
@@ -92,7 +92,7 @@ function Projects() {
              </button>
            </a>
          </div>
-         <p className="text-center mt-4">HTML | CSS | JS | React | Express</p>
+         <p className="text-center mt-4">HTML | CSS | JS DOM |</p>
        </div>
        </div>
      </div>
