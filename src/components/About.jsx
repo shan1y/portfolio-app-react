@@ -12,7 +12,7 @@ const About = () => {
       className="w-full  md:h-screen bg-[#0a192f] text-gray-300 snap-center snap-always"
     >
       <div
-        className="flex flex-col justify-center items-center w-full h-full "
+        className="flex flex-col justify-center items-center w-full "
         data-aos-duration="1000"
         data-aos="fade-up"
       >
