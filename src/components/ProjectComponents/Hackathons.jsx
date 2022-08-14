@@ -47,7 +47,7 @@ function Hackathons() {
       <div class="content-div h-full w-full flex flex-col justify-center">
       <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
         <span className="text-2xl font-bold text-white tracking-wider text-center ">
-          Travel Site
+          Meet the Characters
         </span>
         <div className="pt-4 text-center">
           <a href="https://meet-the-characters-hackathon.netlify.app/" rel="noopener noreferrer" target="_blank">
@@ -74,7 +74,7 @@ function Hackathons() {
       <div class="content-div h-full w-full flex flex-col justify-center">
       <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
         <span className="text-2xl font-bold text-white tracking-wider text-center">
-          Bandsite
+          BMO Industry Hackathon
         </span>
         <div className="pt-4 text-center">
           <a href="https://bandsite-project.netlify.app/" rel="noopener noreferrer" target="_blank">
