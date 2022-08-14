@@ -20,7 +20,7 @@ const Home = () => {
         data-aos-delay="300"
         data-aos-offset="0"
       >
-        <p className="text-pink-600">Hi, my name is</p>
+        <p className="text-pink-600 mt-16">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Shannon Yazdani
         </h1>
