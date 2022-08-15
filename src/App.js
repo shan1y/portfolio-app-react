@@ -10,13 +10,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div class="snap-mandatory snap-y">
       <Home />
       <About />
       <Skills />
       <Work />
       <Contact />
-      </div>
     </div>
   );
 }
