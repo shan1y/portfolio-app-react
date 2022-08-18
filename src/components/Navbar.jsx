@@ -52,7 +52,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link  class="hover:text-[#DB2777]" to="contact" smooth={true} duration={500}>
+          <Link  class="hover:text-[#DB2777]" to="contact" offset={-80} smooth={true} duration={500}>
             Contact
           </Link>
         </li>
