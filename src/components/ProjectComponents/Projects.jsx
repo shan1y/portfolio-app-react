@@ -14,7 +14,7 @@ function Projects() {
   return (
     <>
       {/* Container */}
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 min-h-516">
+      <div className="grid  sm:grid-cols-2 md:grid-cols-3 gap-4 min-h-516">
         {/* Grid Item */}
         <div
           style={{ backgroundImage: `url(${coffee})` }}
