@@ -96,7 +96,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link class="hover:text-[#DB2777]" onClick={handleClick} to="contact"  offset={-70} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" onClick={handleClick} to="contact"  offset={-0} smooth={true} duration={500}>
             Contact
           </Link>
         </li>

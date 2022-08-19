@@ -8,12 +8,12 @@ import 'aos/dist/aos.css'
 
 AOS.init();
 
-
+//pb-20 md:pb-10 lg:pb-0
 const Work = () => {
   return (
     <Router>
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
-      <div className="max-w-[1000px] pb-10 md:pb-10 lg:pb-0 mx-auto p-4 flex flex-col justify-center w-full h-fulls"data-aos-duration="1000" data-aos="fade-up">
+      <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-fulls"data-aos-duration="1000" data-aos="fade-up">
         <div className="pb-6">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Projects
