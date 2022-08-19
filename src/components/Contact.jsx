@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full md:h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full h-full md:h-screen bg-[#0a192f] flex justify-center items-center p-4"
     >
       <form
         onSubmit={handleSubmit}
@@ -60,7 +60,7 @@ const Contact = () => {
           <p className=" text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
+          <p className="text-gray-300 pt-4 pb-0">
             If you're looking for someone who’s highly motivated and who enjoys
             being pushed creatively, let's chat! Submit the form below or shoot
             me an e-mail - shannonyazdani at gmail.com
@@ -74,7 +74,7 @@ const Contact = () => {
           value={formValues.name}
           onChange={handleChange}
         />
-         <p className="text-error mb-2">{formErrors.name}</p>
+         <p className="text-error mb-2 md:mb-4">{formErrors.name}</p>
         <input
           className=" p-2 bg-[#ccd6f6]"
           // type="email"
@@ -83,11 +83,11 @@ const Contact = () => {
           value={formValues.email}
           onChange={handleChange}
         />
-          <p className="text-error mb-4">{formErrors.email}</p>
+          <p className="text-error mb-2 md:mb-4">{formErrors.email}</p>
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
-          rows="10"
+          rows="6"
           placeholder="Message"
           value={formValues.message}
           onChange={handleChange}
