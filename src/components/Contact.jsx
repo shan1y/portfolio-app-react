@@ -86,7 +86,7 @@ const Contact = () => {
           <p className="text-error mb-2 md:mb-4">{formErrors.email}</p>
         <textarea
    
-          className="bg-[#ccd6f6] p-2      resize-none"
+          className="bg-[#ccd6f6] p-2 resize-none"
           name="message"
           rows="6"
           placeholder="Message"
