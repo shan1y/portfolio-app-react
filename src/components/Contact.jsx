@@ -33,7 +33,7 @@ const Contact = () => {
       errors.name = "please enter your name";
     }
     if (!values.email) {
-      errors.email = "email is required";
+      errors.email = "please enter your email";
     } else if(!regex.test(values.email)){
       errors.email = "this is not a valid email format"
     }

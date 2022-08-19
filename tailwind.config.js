@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'error':'#DB2777'
+        'error':'#e07eaa'
       }
     },
   },
