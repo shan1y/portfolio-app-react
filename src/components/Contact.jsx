@@ -104,33 +104,37 @@ const Contact = () => {
           <div className="lg:hidden flex text-white">
             <a
               href="https://www.linkedin.com/in/shannonyazdani/"
+              target="_blank"
               className="flex flex-col items-center w-full text-gray-300"
-            >  <FaLinkedinIn size={30} />
+            >
+              {" "}
+              <FaLinkedinIn size={30} />
               LinkedIn
-            
             </a>
             <a
+              target="_blank"
               href="https://github.com/shan1y"
               className="flex flex-col items-center w-full text-gray-300"
-            >   <FaGithub size={30} />
+            >
               {" "}
-              GitHub
-           
+              <FaGithub size={30} /> GitHub
             </a>
             <button
               onClick={() =>
                 (window.location = "mailto:shannonyazdani@gmail.com.com")
               }
               className="flex flex-col items-center w-full text-gray-300"
-            ><HiOutlineMail size={30} />
-              Email 
+            >
+              <HiOutlineMail size={30} />
+              Email
             </button>
             <a
               className="flex flex-col items-center w-full text-gray-300"
               href={resume}
               download="shannon-yazdani-resume.pdf"
-            ><BsFillPersonLinesFill size={30} />
-              Resume 
+            >
+              <BsFillPersonLinesFill size={30} />
+              Resume
             </a>
           </div>
         </form>
