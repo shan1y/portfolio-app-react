@@ -103,6 +103,7 @@ const Contact = () => {
           </button>
           <div className="lg:hidden flex text-white">
             <a
+            rel="noopener noreferrer"
               href="https://www.linkedin.com/in/shannonyazdani/"
               target="_blank"
               className="flex flex-col items-center w-full text-gray-300"
@@ -112,6 +113,7 @@ const Contact = () => {
               LinkedIn
             </a>
             <a
+            rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/shan1y"
               className="flex flex-col items-center w-full text-gray-300"
