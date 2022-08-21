@@ -161,7 +161,7 @@ function Projects() {
               </span>
               <div className="pt-4 text-center">
                 <a
-                  href="https://instock-project.herokuapp.com/inventory"
+                  href="https://instock-project.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
