@@ -91,11 +91,11 @@ function Hackathons() {
           <div class="content-div h-full w-full flex flex-col justify-center">
             <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
-                BMO Industry Hackathon
+                BMO Industry Hackathon (mobile)
               </span>
               <div className="pt-4 text-center">
                 <a
-                  href="https://bandsite-project.netlify.app/"
+                  href="https://bmo-industry-hackathon.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
