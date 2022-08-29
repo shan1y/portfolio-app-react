@@ -95,7 +95,7 @@ function Hackathons() {
               </span>
               <div className="pt-4 text-center">
                 <a
-                  href="https://bmo-industry-hackathon.herokuapp.com/"
+                  href="https://bmo-hackathon.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
