@@ -51,7 +51,7 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className="w-full h-full md:flex bg-[#0a192f] flex flex-col justify-center items-center p-4"
+        className="w-full h-screen md:flex bg-[#0a192f] flex flex-col justify-center items-center p-4"
       >
         <form
           onSubmit={handleSubmit}
