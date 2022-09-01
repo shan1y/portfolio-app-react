@@ -14,7 +14,7 @@ const Home = () => {
     >
       {/* Container */}
       <div
-        className="max-w-[1000px]   mx-auto px-8 flex flex-col justify-center h-full"
+        className="max-w-[1000px] top-4 relative md:top-0 md:static mx-auto px-8 flex flex-col justify-center h-full"
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
         data-aos-delay="300"

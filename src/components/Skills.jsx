@@ -40,7 +40,7 @@ const Skills = () => {
               src={HTML}
               alt="HTML icon"
             />
-            <p className="my-4">HTML</p>
+            <p className="my-2 md:my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -48,7 +48,7 @@ const Skills = () => {
               src={CSS}
               alt="HTML icon"
             />
-            <p className="my-4">CSS</p>
+            <p className="my-2 md:my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -56,7 +56,7 @@ const Skills = () => {
               src={JavaScript}
               alt="HTML icon"
             />
-            <p className="my-4">JAVASCRIPT</p>
+            <p className="my-2 md:my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -64,7 +64,7 @@ const Skills = () => {
               src={ReactImg}
               alt="HTML icon"
             />
-            <p className="my-4">REACT</p>
+            <p className="my-2 md:my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -72,7 +72,7 @@ const Skills = () => {
               src={GitHub}
               alt="HTML icon"
             />
-            <p className="my-4">GITHUB</p>
+            <p className="my-2 md:my-4">GITHUB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -80,7 +80,7 @@ const Skills = () => {
               src={Node}
               alt="HTML icon"
             />
-            <p className="my-4">NODE JS</p>
+            <p className="my-2 md:my-4">NODE JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -88,7 +88,7 @@ const Skills = () => {
               src={Sass}
               alt="HTML icon"
             />
-            <p className="my-4">SASS</p>
+            <p className="my-2 md:my-4">SASS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -96,7 +96,7 @@ const Skills = () => {
               src={FireBase}
               alt="HTML icon"
             />
-            <p className="my-4">FIREBASE</p>
+            <p className="my-2 md:my-4">FIREBASE</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -104,7 +104,7 @@ const Skills = () => {
               src={Tailwind}
               alt="HTML icon"
             />
-            <p className="my-4">TAILWIND</p>
+            <p className="my-2 md:my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -112,7 +112,7 @@ const Skills = () => {
               src={MySQL}
               alt="HTML icon"
             />
-            <p className="my-4">MYSQL</p>
+            <p className="my-2 md:my-4">MYSQL</p>
           </div>
         </div>
       </div>
