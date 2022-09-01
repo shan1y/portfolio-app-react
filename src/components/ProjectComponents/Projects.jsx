@@ -39,6 +39,7 @@ function Projects() {
                 <a
                   href="https://github.com/shan1y/coffee-shop-project"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -69,7 +70,7 @@ function Projects() {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/shan1y/travel-site" target="_blank">
+                <a href="https://github.com/shan1y/travel-site" target="_blank"  rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -103,6 +104,7 @@ function Projects() {
                 <a
                   href="https://github.com/shan1y/shannon-yazdani-bandsite"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -136,6 +138,7 @@ function Projects() {
                 <a
                   href="https://github.com/shan1y/shannon-yazdani-brainflix-2"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -172,6 +175,7 @@ function Projects() {
                 <a
                   href="https://github.com/shan1y/instock-deployed"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code

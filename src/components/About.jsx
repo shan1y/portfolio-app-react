@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full pb-20 md:pb-10 lg:pb-0 md:h-screen bg-[#0a192f] text-gray-300"
+      className="w-full pb-20 md:pb-10 lg:pb-0 md:h-screen md:flex bg-[#0a192f] text-gray-300"
     >
       <div
         className="flex flex-col justify-center items-center w-full "
@@ -46,6 +46,7 @@ const About = () => {
                 class="text-[#8892b0]"
                 href="https://brainstation.io/?utm_keyword=brainstation&utm_network=g&utm_matchtype=e&utm_creative=482909840077&utm_target=&utm_placement=&utm_device=c&utm_campaign=11729367083&utm_adgroup=116579479809&utm_source=AdWords&utm_target_id=kwd-296950415241&gclid=Cj0KCQjwuuKXBhCRARIsAC-gM0iWvnb6YVZdXY-gdaBkpqPcGkWTrNcnOrUugot_Dz2FjYcuTMrJJQ4aAo2FEALw_wcB"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Brainstation
               </a>

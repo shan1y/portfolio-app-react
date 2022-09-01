@@ -37,6 +37,7 @@ function Hackathons() {
                 <a
                   href="https://github.com/shan1y/horoscope-mini-hackathon"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -70,6 +71,7 @@ function Hackathons() {
                 <a
                   href="https://github.com/shan1y/meet-the-characters-hackathon-netlify"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -106,6 +108,7 @@ function Hackathons() {
                 <a
                   href="https://github.com/shan1y/industry-hackathon-deployed"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code

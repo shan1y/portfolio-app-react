@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -37,17 +35,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link class="hover:text-[#DB2777]" to="about" offset={-100} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" to="about" offset={0} smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link class="hover:text-[#DB2777]" to="skills" offset={-100} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" to="skills" offset={0} smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link class="hover:text-[#DB2777]" to="work"  offset={-100} smooth={true} duration={500}>
+          <Link class="hover:text-[#DB2777]" to="work"  offset={0} smooth={true} duration={500}>
             Work
           </Link>
         </li>
@@ -138,7 +136,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={resume}
-              download="shannon-yazdani-resume.pdf"
+              download={"shannon-yazdani-resume.pdf"}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
