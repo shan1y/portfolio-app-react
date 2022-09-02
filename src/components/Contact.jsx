@@ -20,8 +20,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setFormErrors(validate(formValues));
+    setFormErrors(validate(formValues, e));
     setIsSubmit(true);
   };
 
@@ -30,7 +29,8 @@ const Contact = () => {
       console.log(formValues);
     }
   }, [formErrors]);
-  const validate = (values) => {
+
+  const validate = (values, e) => {
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (!values.name) {
@@ -44,8 +44,16 @@ const Contact = () => {
     if (!values.message) {
       errors.message = "please enter a message";
     }
+
+    if(Object.keys(errors).length === 0 && errors.constructor === Object){
+      //if no errors, submit the form
+    } else {
+       e.preventDefault();
+    }
     return errors;
   };
+
+
 
   return (
     <>
@@ -59,6 +67,7 @@ const Contact = () => {
           data-aos="fade-up"
           method="POST"
           action="https://getform.io/f/5b7a8336-8523-4dd7-afd2-123ddb0263d5"
+          
           className="flex flex-col max-w-[600px] w-full"
         >
           <div className="pb-8 mt-4  md:mt-0">
