@@ -17,7 +17,7 @@ const Navbar = () => {
           <img
             src={Logo}
             alt="Logo Image"
-            style={{ height: "65px", transform: "translateX(-25px) " }}
+            style={{ height: "60px", transform: "translateX(-25px) " }}
           />
         </a>
       </div>
