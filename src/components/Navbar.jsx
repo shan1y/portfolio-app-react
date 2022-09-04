@@ -11,13 +11,13 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-10 w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed z-10 w-full h-[65px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <a href="/">
           <img
             src={Logo}
             alt="Logo Image"
-            style={{ height: "60px", transform: "translateX(-25px) " }}
+            style={{ height: "80px", transform: "translateX(-25px) " }}
           />
         </a>
       </div>
