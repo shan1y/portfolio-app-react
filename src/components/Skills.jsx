@@ -16,7 +16,10 @@ AOS.init();
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen md:flex bg-[#0a192f] text-gray-300">
+    <div
+      name="skills"
+      className="w-full h-screen md:flex bg-[#0a192f] text-gray-300"
+    >
       {/* Container */}
       <div
         className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full"
@@ -108,7 +111,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-6 md:w-10 lg:w-20 mx-auto"
+              className="w-8 h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
               src={MySQL}
               alt="HTML icon"
             />
