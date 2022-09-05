@@ -14,7 +14,7 @@ const Home = () => {
     >
       {/* Container */}
       <div
-        className="max-w-[1000px] top-4 relative md:top-0 md:static mx-auto px-8 flex flex-col justify-center h-full"
+        className="max-w-[1000px] relative md:top-0 md:static mx-auto px-8 flex flex-col justify-center h-full"
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
         data-aos-delay="300"
@@ -29,9 +29,9 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I’m a full-stack developer specializing in building exceptional
-          digital experiences who's passionate about leveraging code to make peoples' lives easier.
-          Currently, I’m focused on building responsive full-stack web
-          applications.
+          digital experiences who's passionate about leveraging code to make
+          peoples' lives easier. Currently, I’m focused on building responsive
+          full-stack web applications.
         </p>
         <div>
           <Link to="work" smooth={true} offset={-100} duration={1000}>
