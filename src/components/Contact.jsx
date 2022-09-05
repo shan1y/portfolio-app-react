@@ -45,15 +45,13 @@ const Contact = () => {
       errors.message = "please enter a message";
     }
 
-    if(Object.keys(errors).length === 0 && errors.constructor === Object){
+    if (Object.keys(errors).length === 0 && errors.constructor === Object) {
       //if no errors, submit the form
     } else {
-       e.preventDefault();
+      e.preventDefault();
     }
     return errors;
   };
-
-
 
   return (
     <>
@@ -67,8 +65,7 @@ const Contact = () => {
           data-aos="fade-up"
           method="POST"
           action="https://getform.io/f/5b7a8336-8523-4dd7-afd2-123ddb0263d5"
-          
-          className="flex flex-col max-w-[600px] w-full"
+          className="flex flex-col max-w-[600px] w-full h-screen"
         >
           <div className="pb-8 mt-4  md:mt-0">
             <p className=" text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
@@ -112,7 +109,7 @@ const Contact = () => {
           </button>
           <div className="lg:hidden flex text-white">
             <a
-            rel="noopener noreferrer"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/shannonyazdani/"
               target="_blank"
               className="flex flex-col items-center w-full text-gray-300"
@@ -122,7 +119,7 @@ const Contact = () => {
               LinkedIn
             </a>
             <a
-            rel="noopener noreferrer"
+              rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/shan1y"
               className="flex flex-col items-center w-full text-gray-300"
