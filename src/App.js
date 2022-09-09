@@ -9,7 +9,9 @@ import "./App.scss";
 function App() {
   return (
     <div className="app">
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <div className="sections">
         <Home />
         <About />
