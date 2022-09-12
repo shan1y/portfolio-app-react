@@ -71,7 +71,6 @@ const Navbar = () => {
           <Link
             class="hover:text-[#DB2777]"
             to="contact"
-            offset={0}
             smooth={true}
             duration={500}
           >
@@ -185,7 +184,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <button
               onClick={() =>
-                (window.location = "mailto:shannonyazdani@gmail.com.com")
+                (window.location = "mailto:shannonyazdani@gmail.com")
               }
               className="flex justify-between items-center w-full text-gray-300"
             >
