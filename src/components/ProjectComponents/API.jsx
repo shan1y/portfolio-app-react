@@ -1,7 +1,7 @@
 import React from "react";
 import api from "../../assets/projectImages/brainflixapi.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 AOS.init();
 
@@ -24,15 +24,16 @@ function API() {
                   href="https://brainflix-api.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
-                <a href="https://github.com/shan1y/shannon-yazdani-brainflix-api"  target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                <a
+                  href="https://github.com/shan1y/shannon-yazdani-brainflix-api"
+                  target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                >
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">HTML | CSS | Express</p>

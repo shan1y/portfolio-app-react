@@ -29,19 +29,17 @@ function Hackathons() {
                   href="https://mini-hackathon-horoscope.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/horoscope-mini-hackathon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">HTML | CSS | API</p>
@@ -63,19 +61,17 @@ function Hackathons() {
                   href="https://meet-the-characters-hackathon.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/meet-the-characters-hackathon-netlify"
                   target="_blank"
                   rel="noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">
@@ -100,19 +96,17 @@ function Hackathons() {
                   href="https://bmo-hackathon.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/industry-hackathon-deployed"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">HTML | CSS | JS | React</p>

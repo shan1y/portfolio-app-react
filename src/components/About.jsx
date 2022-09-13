@@ -50,9 +50,9 @@ const About = () => {
               >
                 Brainstation
               </a>
-              's Full-Stack development bootcamp and being selected as a TA for their next
-              cohort, I was a chemical engineer who held a technical sales role
-              at
+              's Full-Stack development bootcamp and being selected as a TA for
+              their next cohort, I was a chemical engineer who held a technical
+              sales role at
               <a
                 class="text-[#8892b0]"
                 href="https://www.rockwellautomation.com/en-us.html"
@@ -69,11 +69,6 @@ const About = () => {
               I'm also passionate about mentorship and doing work that brings
               positive impact to individuals.
             </p>
-            {/* <p class="p-4">
-              When I'm not coding, you can find me playing court or beach
-              volleyball, exploring the depths of web3, curating new Spotify
-              playlists, and discovering new hole-in-the-wall restaurants!
-            </p> */}
           </div>
         </div>
       </div>

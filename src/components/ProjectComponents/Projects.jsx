@@ -31,19 +31,17 @@ function Projects() {
                   href="https://coffee-shop-bstn.netlify.app/index.html"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/coffee-shop-project"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">HTML | CSS</p>
@@ -65,15 +63,17 @@ function Projects() {
                   href="https://travel-site-bstn.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
-                <a href="https://github.com/shan1y/travel-site" target="_blank"  rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                <a
+                  href="https://github.com/shan1y/travel-site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                >
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">HTML | CSS </p>
@@ -96,19 +96,17 @@ function Projects() {
                   href="https://bandsite-project.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/shannon-yazdani-bandsite"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">HTML | CSS | JS DOM |</p>
@@ -130,19 +128,19 @@ function Projects() {
                   href="https://brainflix-bstn.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white
+                  text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  {" "}
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/shannon-yazdani-brainflix-2"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">
@@ -167,19 +165,19 @@ function Projects() {
                   href="https://instock-project.herokuapp.com/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white
+                  text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  {" "}
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/instock-deployed"
                   target="_blank"
                   rel="noreferrer"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">
@@ -203,18 +201,18 @@ function Projects() {
                   href="https://skyball.netlify.app"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
                   href="https://github.com/shan1y/skyball-capstone2"
                   target="_blank"
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-white
+                  text-gray-700 font-bold text-lg"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
+                  {" "}
+                  Code
                 </a>
               </div>
               <p className="text-center mt-4">
