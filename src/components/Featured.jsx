@@ -23,7 +23,7 @@ const Featured = () => {
             <p className="text-4xl font-bold inline-block  border-b-4 border-pink-600">
               WIP
             </p>
-            <p className="py-4">Check out projcets I'm currently working on:</p>
+            <p className="py-4">Check out projects I'm currently working on:</p>
             <div className="flex justiyfy-center py-4   bg-[#1b2d47] px-4 rounded-lg items-center">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="basis-1/2 ">
