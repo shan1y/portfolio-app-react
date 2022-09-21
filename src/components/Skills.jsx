@@ -12,6 +12,8 @@ import Tailwind from "../assets/tailwind.png";
 import Docker from "../assets/docker.svg";
 import Vue from "../assets/vueicon.png";
 import typescript from "../assets/typescript-logo.svg";
+import jest from "../assets/jest.png";
+import knex from "../assets/knex.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -41,15 +43,15 @@ const Skills = () => {
         </div>
 
         <div className="w-full pb-20 md:pb-10 lg:pb-0 grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4 shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-6 md:w-10 lg:w-20 mx-auto"
+              className="w-6 md:w-10  lg:w-20 mx-auto"
               src={HTML}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">HTML</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4  shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-6 md:w-10 lg:w-20 mx-auto"
               src={CSS}
@@ -57,15 +59,15 @@ const Skills = () => {
             />
             <p className="my-2 md:my-4">CSS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md  pt-4 shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-6 md:w-10 lg:w-20 mx-auto"
+              className="w-6 md:w-10   lg:w-20 mx-auto"
               src={JavaScript}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">JAVASCRIPT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4 shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-6 md:w-10 lg:w-20 mx-auto"
               src={ReactImg}
@@ -73,23 +75,23 @@ const Skills = () => {
             />
             <p className="my-2 md:my-4">REACT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4 shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-6 md:w-10 lg:w-20 mx-auto"
+              className="w-6 md:w-10  lg:w-20 mx-auto"
               src={GitHub}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">GITHUB</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4 shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-6 md:w-10 lg:w-20 mx-auto"
+              className="w-6 md:w-10  lg:w-20 mx-auto"
               src={Node}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">NODE JS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4  shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-6 md:w-10 lg:w-20 mx-auto"
               src={Sass}
@@ -97,15 +99,15 @@ const Skills = () => {
             />
             <p className="my-2 md:my-4">SASS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4  shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-6 md:w-10 lg:w-20 mx-auto"
+              className="w-6  md:w-10 lg:w-20 mx-auto"
               src={FireBase}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">FIREBASE</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4  shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-6 md:w-10 lg:w-20 mx-auto"
               src={Tailwind}
@@ -113,23 +115,23 @@ const Skills = () => {
             />
             <p className="my-2 md:my-4">TAILWIND</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4  shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-8 h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              className="w-8  h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
               src={MySQL}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">MYSQL</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4 shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-8 h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              className="w-8 h-6  md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
               src={typescript}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">TYPESCRIPT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4  shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-8 h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
               src={Vue}
@@ -137,13 +139,29 @@ const Skills = () => {
             />
             <p className="my-2 md:my-4">VUE.JS</p>
           </div>
-          <div className="shadow-md  shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md pt-4   shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-8 invert h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
               src={Docker}
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">DOCKER</p>
+          </div>
+          <div className="shadow-md pt-4 shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-8 h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              src={knex}
+              alt="HTML icon"
+            />
+            <p className="my-2 md:my-4">KNEX</p>
+          </div>
+          <div className="shadow-md pt-4 shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-8 h-6  md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              src={jest}
+              alt="HTML icon"
+            />
+            <p className="my-2 md:my-4">JEST</p>
           </div>
         </div>
       </div>
