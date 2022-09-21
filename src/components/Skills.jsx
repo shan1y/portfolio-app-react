@@ -9,7 +9,7 @@ import FireBase from "../assets/firebase.png";
 import MySQL from "../assets/mysql.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
-import Docker from "../assets/docker.svg";
+import Docker from "../assets/docker-icon.png";
 import Vue from "../assets/vueicon.png";
 import typescript from "../assets/typescript-logo.svg";
 import jest from "../assets/jest.png";
@@ -141,7 +141,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md pt-4   shadow-[#040c16] hover:scale-110 duration-500">
             <img
-              className="w-8 invert h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              className="w-8  h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
               src={Docker}
               alt="HTML icon"
             />
