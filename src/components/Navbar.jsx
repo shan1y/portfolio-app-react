@@ -57,6 +57,18 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          {" "}
+          <Link
+            class="hover:text-[#DB2777]"
+            to="featured"
+            offset={-70}
+            smooth={true}
+            duration={500}
+          >
+            WIP
+          </Link>
+        </li>
+        <li>
           <Link
             class="hover:text-[#DB2777]"
             to="work"
@@ -64,7 +76,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Work
+            Projects
           </Link>
         </li>
         <li>
@@ -128,6 +140,19 @@ const Navbar = () => {
             duration={500}
           >
             Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link
+            class="hover:text-[#DB2777]"
+            onClick={handleClick}
+            to="featured"
+            offset={-70}
+            smooth={true}
+            duration={500}
+          >
+            WIP
           </Link>
         </li>
         <li className="py-6 text-4xl">

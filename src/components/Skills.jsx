@@ -9,6 +9,10 @@ import FireBase from "../assets/firebase.png";
 import MySQL from "../assets/mysql.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
+import Docker from "../assets/docker.svg";
+import Vue from "../assets/vueicon.png";
+import typescript from "../assets/typescript-logo.svg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,7 +22,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-screen md:flex bg-[#0a192f] text-gray-300"
+      className="w-full md:h-screen md:flex bg-[#0a192f] text-gray-300"
     >
       {/* Container */}
       <div
@@ -116,6 +120,30 @@ const Skills = () => {
               alt="HTML icon"
             />
             <p className="my-2 md:my-4">MYSQL</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-8 h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              src={typescript}
+              alt="HTML icon"
+            />
+            <p className="my-2 md:my-4">TYPESCRIPT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-8 h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              src={Vue}
+              alt="HTML icon"
+            />
+            <p className="my-2 md:my-4">VUE.JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-8 invert h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
+              src={Docker}
+              alt="HTML icon"
+            />
+            <p className="my-2 md:my-4">DOCKER</p>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Featured from "./components/Featured";
 import "./App.scss";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Featured />
         <Work />
         <Contact />
       </div>
