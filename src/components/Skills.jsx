@@ -137,7 +137,7 @@ const Skills = () => {
             />
             <p className="my-2 md:my-4">VUE.JS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md  shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-8 invert h-6 md:w-14 md:h-10 lg:w-24 lg:h-20 mx-auto"
               src={Docker}
