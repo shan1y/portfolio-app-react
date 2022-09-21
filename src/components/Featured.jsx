@@ -81,9 +81,9 @@ const Featured = () => {
                   </p>
                   <p className="p-2">
                     The tech stack for this project includes
-                    <span className="text-[#DB2777]"> MySQL</span> ,
-                    <span className="text-[#DB2777]"> TypeScript</span> ,
-                    <span className="text-[#DB2777]"> React</span>and
+                    <span className="text-[#DB2777]"> MySQL</span>,
+                    <span className="text-[#DB2777]"> TypeScript</span>,
+                    <span className="text-[#DB2777]"> React </span>and
                     <span className="text-[#DB2777]"> JWT </span> for
                     authentication and authorization.
                   </p>
