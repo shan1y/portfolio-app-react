@@ -111,7 +111,7 @@ const Navbar = () => {
             to="home"
             offset={-0}
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             Home
           </Link>
@@ -124,7 +124,7 @@ const Navbar = () => {
             to="about"
             offset={-80}
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             About
           </Link>
@@ -137,7 +137,7 @@ const Navbar = () => {
             to="skills"
             offset={-80}
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             Skills
           </Link>
@@ -150,7 +150,7 @@ const Navbar = () => {
             to="featured"
             offset={-70}
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             WIP
           </Link>
@@ -163,7 +163,7 @@ const Navbar = () => {
             to="work"
             offset={-70}
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             Projects
           </Link>
@@ -176,7 +176,7 @@ const Navbar = () => {
             to="contact"
             offset={-30}
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             Contact
           </Link>

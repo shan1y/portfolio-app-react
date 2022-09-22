@@ -96,7 +96,7 @@ const Featured = () => {
                       href="https://bestflix-sy.netlify.app/"
                       rel="noopener noreferrer"
                       target="_blank"
-                      className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-black  font-bold text-lg"
+                      className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-[#1b2d47]  font-bold text-lg"
                     >
                       Demo
                     </a>
@@ -104,7 +104,7 @@ const Featured = () => {
                       href="https://github.com/shan1y/entertainment-web-app"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-black font-bold text-lg"
+                      className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-[#1b2d47] font-bold text-lg"
                     >
                       Code
                     </a>

@@ -28,10 +28,10 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I’m a full-stack developer specializing in building exceptional
-          digital experiences who's passionate about leveraging code to make
-          peoples' lives easier. Currently, I’m focused on building responsive
-          full-stack web applications.
+          I specialize in building exceptional digital experiences and I'm
+          passionate about leveraging code to make peoples' lives easier.
+          Currently, I’m focused on building responsive full-stack web
+          applications.
         </p>
         <div>
           <Link to="featured" offset={-80} smooth={true} duration={1000}>

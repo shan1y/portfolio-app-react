@@ -28,13 +28,13 @@ const Work = () => {
             <p className="pt-6">Check out some of my recent work:</p>
           </div>
           <div className="flex gap-x-10 py-2">
-            <Link class="hover:text-[#DB2777]" to="/">
+            <Link class="hover:text-[#DB2777] underline" to="/">
               Projects
             </Link>
-            <Link class="hover:text-[#DB2777]" to="/hackathons">
+            <Link class="hover:text-[#DB2777] underline " to="/hackathons">
               Hackathons
             </Link>
-            <Link class="hover:text-[#DB2777]" to="/apis">
+            <Link class="hover:text-[#DB2777] underline " to="/apis">
               APIs
             </Link>
           </div>
