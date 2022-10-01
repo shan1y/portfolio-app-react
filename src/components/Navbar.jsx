@@ -107,7 +107,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div className={isActive? "active" : null}>
+      <div className={ isActive? "active md:hidden" :"md:hidden"}>
       <div onClick={handleClick} className= "hamburger  md:hidden z-10">
         <span className="line1"></span>
         <span className="line2"></span>
