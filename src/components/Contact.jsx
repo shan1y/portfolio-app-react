@@ -88,7 +88,6 @@ const Contact = () => {
           <p className="text-error mb-2 md:mb-4">{formErrors.name}</p>
           <input
             className=" p-2 bg-[#ccd6f6]"
-            // type="email"
             placeholder="Email"
             name="email"
             value={formValues.email}
