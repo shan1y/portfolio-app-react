@@ -8,18 +8,23 @@ import resume from "../assets/Resume/shannon-yazdani-resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [sidebarAnimaiton, setSidebarAnimation] = useState(" close-animation ")
-  const [sidebarAnimaitonText, setSidebarAnimationText] = useState(" close-animation-text ")
+  const [sidebarAnimaiton, setSidebarAnimation] = useState(" close-animation ");
+  const [sidebarAnimaitonText, setSidebarAnimationText] = useState(
+    " close-animation-text "
+  );
+  const [isActive, setIsActive] = useState(false)
   const handleClick = () => {
-    setSidebarAnimation(nav ? " close-animation " :" open-animation")
-    setSidebarAnimationText(nav ? " close-animation-text " :" open-animation-text ");
-    if(nav){
-      setTimeout(()=>setNav(!nav),300);
-     } else {
-      setNav(!nav)
-     }}
-  ;
-
+    setIsActive(!isActive)
+    setSidebarAnimation(nav ? " close-animation " : " open-animation");
+    setSidebarAnimationText(
+      nav ? " close-animation-text " : " open-animation-text "
+    );
+    if (nav) {
+      setTimeout(() => setNav(!nav), 300);
+    } else {
+      setNav(!nav);
+    }
+  };
   return (
     <div className="fixed z-10 w-full h-[65px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
@@ -102,97 +107,102 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div className={isActive? "active" : null}>
+      <div onClick={handleClick} className= "hamburger  md:hidden z-10">
+        <span className="line1"></span>
+        <span className="line2"></span>
+        <span className="line2"></span>
+      </div>
       </div>
 
       {/* Mobile menu */}
-      {!nav ? null :  
-      <ul
-        className={
-          
-             "absolute top-0 right-0  h-screen bg-[#0a192f] flex text-center flex-col justify-center items-start w-64" + sidebarAnimaiton 
-        }
-      >
- <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
-          <Link
-            class="hover:text-[#DB2777]"
-            onClick={handleClick}
-            to="home"
-            offset={-0}
-            smooth={true}
-            duration={1000}
-          >
-            Home
-          </Link>
-        </li>
-        
-         <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
-          {" "}
-          <Link
-            class="hover:text-[#DB2777]"
-            onClick={handleClick}
-            to="about"
-            offset={-80}
-            smooth={true}
-            duration={1000}
-          >
-            About
-          </Link>
-        </li>
-        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
-          {" "}
-          <Link
-            class="hover:text-[#DB2777]"
-            onClick={handleClick}
-            to="skills"
-            offset={-80}
-            smooth={true}
-            duration={1000}
-          >
-            Skills
-          </Link>
-        </li>
-        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
-          {" "}
-          <Link
-            class="hover:text-[#DB2777]"
-            onClick={handleClick}
-            to="featured"
-            offset={-70}
-            smooth={true}
-            duration={1000}
-          >
-            WIP
-          </Link>
-        </li>
-        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
-          {" "}
-          <Link
-            class="hover:text-[#DB2777]"
-            onClick={handleClick}
-            to="work"
-            offset={-70}
-            smooth={true}
-            duration={1000}
-          >
-            Projects
-          </Link>
-        </li>
-        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
-          {" "}
-          <Link
-            class="hover:text-[#DB2777]"
-            onClick={handleClick}
-            to="contact"
-            offset={-30}
-            smooth={true}
-            duration={1000}
-          >
-            Contact
-          </Link>
-        </li>
-      </ul>}
+      {!nav ? null : (
+        <ul
+          className={
+            "absolute top-16 right-0  h-screen bg-[#0a192f] flex text-center flex-col mt-12 items-start w-64" +
+            sidebarAnimaiton
+          }
+        >
+          <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText}>
+            <Link
+              class="hover:text-[#DB2777]"
+              onClick={handleClick}
+              to="home"
+              offset={-0}
+              smooth={true}
+              duration={1000}
+            >
+              Home
+            </Link>
+          </li>
+
+          <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText}>
+            {" "}
+            <Link
+              class="hover:text-[#DB2777]"
+              onClick={handleClick}
+              to="about"
+              offset={-80}
+              smooth={true}
+              duration={1000}
+            >
+              About
+            </Link>
+          </li>
+          <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText}>
+            {" "}
+            <Link
+              class="hover:text-[#DB2777]"
+              onClick={handleClick}
+              to="skills"
+              offset={-80}
+              smooth={true}
+              duration={1000}
+            >
+              Skills
+            </Link>
+          </li>
+          <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText}>
+            {" "}
+            <Link
+              class="hover:text-[#DB2777]"
+              onClick={handleClick}
+              to="featured"
+              offset={-70}
+              smooth={true}
+              duration={1000}
+            >
+              WIP
+            </Link>
+          </li>
+          <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText}>
+            {" "}
+            <Link
+              class="hover:text-[#DB2777]"
+              onClick={handleClick}
+              to="work"
+              offset={-70}
+              smooth={true}
+              duration={1000}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText}>
+            {" "}
+            <Link
+              class="hover:text-[#DB2777]"
+              onClick={handleClick}
+              to="contact"
+              offset={-30}
+              smooth={true}
+              duration={1000}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      )}
 
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
