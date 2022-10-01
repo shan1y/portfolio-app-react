@@ -119,7 +119,7 @@ const Navbar = () => {
       {!nav ? null : (
         <ul
           className={
-            "absolute top-16 right-0  h-screen bg-[#0a192f] flex text-center flex-col mt-12 items-start w-64" +
+            "absolute top-16 right-0  h-screen bg-[#0a192f] flex text-center flex-col pt-12 items-start w-64" +
             sidebarAnimaiton
           }
         >
