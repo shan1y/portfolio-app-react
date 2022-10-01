@@ -1,23 +1,54 @@
-// .app {
-//   height: 100vh;
+$tablet-breakpoint:768px;
+$desktop-breakpoint:12680px;
+
+@mixin tablet {
+   @media (min-width:$tablet-breakpoint){
+    @content;
+   }
+}
+
+@mixin desktop {
+    @media (min-width:$desktop-breakpoint){
+        @content
+    }
+}
 
 
-//   .sections {
-//     width: 100%;
-//     height: calc(100vh);
-//     position: relative;
-//     top: 70px;
-//     scroll-behavior: smooth;
-//     scroll-snap-type: y mandatory;
-//     scrollbar-width: none; //for firefox
-//     &::-webkit-scrollbar {
-//       display: none;
-//     }
+@keyframes sidebar-appear {
+    0% {width:0;}
+    100%{width:16rem;}
+}
 
-//     > * {
-//       width: 100vw;
-//       height: calc(100vh);
-//       scroll-snap-align: start;
-//     }
-//   }
-// }
+@keyframes sidebar-appear-text {
+    0% {width:0rem;}
+    100%{width:16rem;}
+}
+
+@keyframes sidebar-disappear {
+    0% {width:16rem;}
+    100%{width:0;}
+}
+
+@keyframes sidebar-disappear-text {
+    0% {width:16rem;}
+    100%{width:0rem;}
+}
+
+
+.open-animation  {
+    animation: sidebar-appear 0.3s ease-in 1;
+}
+
+
+.open-animation-text {
+     animation: sidebar-appear-text 0.1s ease-in 1;
+}
+
+
+.close-animation  {
+    animation:sidebar-disappear 0.3s ease-out 1;
+}
+
+.close-animation-text {
+     animation:sidebar-disappear-text 0.8s ease-out 1;
+}

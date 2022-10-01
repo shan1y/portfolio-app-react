@@ -8,7 +8,17 @@ import resume from "../assets/Resume/shannon-yazdani-resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const [sidebarAnimaiton, setSidebarAnimation] = useState(" close-animation ")
+  const [sidebarAnimaitonText, setSidebarAnimationText] = useState(" close-animation-text ")
+  const handleClick = () => {
+    setSidebarAnimation(nav ? " close-animation " :" open-animation")
+    setSidebarAnimationText(nav ? " close-animation-text " :" open-animation-text ");
+    if(nav){
+      setTimeout(()=>setNav(!nav),300);
+     } else {
+      setNav(!nav)
+     }}
+  ;
 
   return (
     <div className="fixed z-10 w-full h-[65px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -97,14 +107,14 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
+      {!nav ? null :  
       <ul
         className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+          
+             "absolute top-0 right-0  h-screen bg-[#0a192f] flex text-center flex-col justify-center items-start w-64" + sidebarAnimaiton 
         }
       >
-        <li className="py-6 text-4xl">
+ <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
           <Link
             class="hover:text-[#DB2777]"
             onClick={handleClick}
@@ -116,7 +126,8 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        
+         <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
           {" "}
           <Link
             class="hover:text-[#DB2777]"
@@ -129,7 +140,7 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
           {" "}
           <Link
             class="hover:text-[#DB2777]"
@@ -142,7 +153,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
           {" "}
           <Link
             class="hover:text-[#DB2777]"
@@ -155,7 +166,7 @@ const Navbar = () => {
             WIP
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
           {" "}
           <Link
             class="hover:text-[#DB2777]"
@@ -168,7 +179,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className={"py-6 text-4xl w-full " + sidebarAnimaitonText }>
           {" "}
           <Link
             class="hover:text-[#DB2777]"
@@ -181,7 +192,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-      </ul>
+      </ul>}
 
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
