@@ -21,8 +21,8 @@ function Projects() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8  justify-between">
+          <div class="content-div  transition h-full w-full flex flex-col justify-center ">
+            <div className="opacity-0  transition  group-hover:opacity-100 h-full flex flex-col py-8  justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 Coffee Shop (Desktop)
               </span>
@@ -53,8 +53,8 @@ function Projects() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div transition  h-full w-full flex flex-col justify-center">
+            <div className="opacity-0  transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center ">
                 Travel Site (Desktop)
               </span>
@@ -86,8 +86,8 @@ function Projects() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div  transition h-full w-full flex flex-col justify-center">
+            <div className="opacity-0  transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 Bandsite
               </span>
@@ -118,8 +118,8 @@ function Projects() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div  transition h-full w-full flex flex-col justify-center">
+            <div className="opacity-0  transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center flex flex-col">
                 BrainFlix
               </span>
@@ -155,14 +155,14 @@ function Projects() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div  transition h-full w-full flex flex-col justify-center">
+            <div className="opacity-0  transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center flex flex-col">
                 InStock Group Project
               </span>
               <div className="pt-4 text-center">
                 <a
-                  href="https://instock-project.herokuapp.com/"
+                  href="https://instock-project.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="text-center rounded-lg px-4 py-3 m-2 bg-white
@@ -191,8 +191,8 @@ function Projects() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div  transition h-full w-full flex flex-col justify-center">
+            <div className="opacity-0  transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center flex flex-col">
                 SkyBall Captsone
               </span>
@@ -210,8 +210,8 @@ function Projects() {
                   target="_blank"
                   className="text-center rounded-lg px-4 py-3 m-2 bg-white
                   text-gray-700 font-bold text-lg"
+                  rel="noreferrer"
                 >
-                  {" "}
                   Code
                 </a>
               </div>

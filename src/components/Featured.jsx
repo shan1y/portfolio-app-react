@@ -116,7 +116,11 @@ const Featured = () => {
             <div className="flex  bg-[#1b2d47] px-4 rounded-lg justiyfy-center py-4 items-center">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="basis-1/2 ">
-                  <img src={instock} className="max-w-3  rounded-md"></img>
+                  <img
+                    src={instock}
+                    alt="instock screenshot"
+                    className="max-w-3 rounded-md"
+                  ></img>
                 </div>
                 <div className="flex p-4 flex-col basis-1/2 justify-center items-center">
                   <h3 className="text-xl font-bold p-2">InStock</h3>
@@ -138,7 +142,7 @@ const Featured = () => {
                   </p>
                   <div className="w-full flex justify-around">
                     <a
-                      href="https://instock-project.herokuapp.com/"
+                      href="https://instock-project.netlify.app"
                       rel="noopener noreferrer"
                       target="_blank"
                       className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-black  font-bold text-lg"

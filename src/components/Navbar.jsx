@@ -12,9 +12,9 @@ const Navbar = () => {
   const [sidebarAnimaitonText, setSidebarAnimationText] = useState(
     " close-animation-text "
   );
-  const [isActive, setIsActive] = useState(false)
+  const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
-    setIsActive(!isActive)
+    setIsActive(!isActive);
     setSidebarAnimation(nav ? " close-animation " : " open-animation");
     setSidebarAnimationText(
       nav ? " close-animation-text " : " open-animation-text "
@@ -41,7 +41,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li>
           <Link
-            class="hover:text-[#DB2777]"
+            class=" transition ease-in-out hover:text-[#DB2777]"
             to="home"
             smooth={true}
             duration={500}
@@ -51,7 +51,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            class="hover:text-[#DB2777]"
+            class=" transition ease-in-out hover:text-[#DB2777]"
             to="about"
             offset={0}
             smooth={true}
@@ -62,9 +62,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            class="hover:text-[#DB2777]"
+            class="transition ease-in-out hover:text-[#DB2777]"
             to="skills"
-            offset={0}
+            offset={-65}
             smooth={true}
             duration={500}
           >
@@ -72,11 +72,10 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          {" "}
           <Link
-            class="hover:text-[#DB2777]"
+            class="transition ease-in-out   hover:text-[#DB2777]"
             to="featured"
-            offset={-70}
+            offset={-60}
             smooth={true}
             duration={500}
           >
@@ -85,9 +84,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            class="hover:text-[#DB2777]"
+            class=" transition ease-in-out hover:text-[#DB2777]"
             to="work"
-            offset={0}
+            offset={-60}
             smooth={true}
             duration={500}
           >
@@ -96,7 +95,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            class="hover:text-[#DB2777]"
+            class="transition ease-in-out hover:text-[#DB2777]"
             to="contact"
             smooth={true}
             duration={500}
@@ -107,12 +106,12 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div className={ isActive? "active md:hidden" :"md:hidden"}>
-      <div onClick={handleClick} className= "hamburger  md:hidden z-10">
-        <span className="line1"></span>
-        <span className="line2"></span>
-        <span className="line2"></span>
-      </div>
+      <div className={isActive ? "active md:hidden" : "md:hidden"}>
+        <div onClick={handleClick} className="hamburger  md:hidden z-10">
+          <span className="line1"></span>
+          <span className="line2"></span>
+          <span className="line2"></span>
+        </div>
       </div>
 
       {/* Mobile menu */}

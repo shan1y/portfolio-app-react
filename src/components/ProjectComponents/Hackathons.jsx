@@ -19,8 +19,8 @@ function Hackathons() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div  transition h-full w-full flex flex-col justify-center">
+            <div className="opacity-0  transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 Daily Horoscope
               </span>
@@ -51,8 +51,8 @@ function Hackathons() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div transition h-full w-full flex flex-col justify-center">
+            <div className="opacity-0 transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center ">
                 Meet the Characters
               </span>
@@ -86,8 +86,8 @@ function Hackathons() {
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-image"
         >
           {/* Hover Effects */}
-          <div class="content-div h-full w-full flex flex-col justify-center">
-            <div className="opacity-0 group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
+          <div class="content-div transition h-full w-full flex flex-col justify-center">
+            <div className="opacity-0 transition group-hover:opacity-100 h-full flex flex-col py-8 justify-between">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 BMO Industry Hackathon (mobile)
               </span>
