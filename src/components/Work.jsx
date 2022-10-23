@@ -27,14 +27,23 @@ const Work = () => {
             </p>
             <p className="pt-3">Check out some of my recent work:</p>
           </div>
-          <div className="flex gap-x-10 py-2">
-            <Link class=" transition hover:text-[#DB2777]" to="/">
+          <div className="flex gap-x-10 pt-2 pb-4">
+            <Link
+              class="border-b-2 border-pink-600 transition hover:text-[#DB2777]"
+              to="/"
+            >
               Projects
             </Link>
-            <Link class="  transition hover:text-[#DB2777] " to="/hackathons">
+            <Link
+              class=" border-b-2 border-pink-600 transition hover:text-[#DB2777] "
+              to="/hackathons"
+            >
               Hackathons
             </Link>
-            <Link class=" transition hover:text-[#DB2777]" to="/apis">
+            <Link
+              class="border-b-2 border-pink-600 transition hover:text-[#DB2777]"
+              to="/apis"
+            >
               APIs
             </Link>
           </div>
