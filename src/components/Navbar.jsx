@@ -41,7 +41,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li>
           <Link
-            class=" transition ease-in-out hover:text-[#DB2777]"
+            class="transition ease-in-out hover:text-[#DB2777]"
             to="home"
             smooth={true}
             duration={500}
@@ -51,7 +51,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            class=" transition ease-in-out hover:text-[#DB2777]"
+            class="transition ease-in-out hover:text-[#DB2777]"
             to="about"
             offset={0}
             smooth={true}
@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link
             class="transition ease-in-out hover:text-[#DB2777]"
             to="skills"
-            offset={-65}
+            offset={0}
             smooth={true}
             duration={500}
           >
@@ -72,10 +72,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          {" "}
           <Link
-            class="transition ease-in-out   hover:text-[#DB2777]"
+            class="transition ease-in-out hover:text-[#DB2777]"
             to="featured"
-            offset={-60}
+            offset={-70}
             smooth={true}
             duration={500}
           >
@@ -84,9 +85,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            class=" transition ease-in-out hover:text-[#DB2777]"
+            class="transition ease-in-out hover:text-[#DB2777]"
             to="work"
-            offset={-60}
+            offset={0}
             smooth={true}
             duration={500}
           >
