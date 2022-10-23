@@ -21,11 +21,11 @@ const Work = () => {
           data-aos-duration="1000"
           data-aos="fade-up"
         >
-          <div className="pb-3">
+          <div>
             <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
               Projects
             </p>
-            <p className="pt-3">Check out some of my recent work:</p>
+            <p className="pt-4">Check out some of my recent work:</p>
           </div>
           <div className="flex gap-x-10 pt-2 pb-4">
             <Link
