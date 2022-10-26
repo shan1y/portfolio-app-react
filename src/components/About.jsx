@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full  md:pb-20  md:flex bg-[#0a192f] text-gray-300"
+      className="w-full pb-20  md:flex bg-[#0a192f] text-gray-300"
     >
       <div
         className="flex flex-col justify-center items-center w-full "
