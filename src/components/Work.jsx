@@ -14,7 +14,7 @@ const Work = () => {
     <Router>
       <div
         name="work"
-        className="w-full md:h-screen md:flex text-gray-300 bg-[#0a192f]"
+        className="w-full pb-20 md:flex text-gray-300 bg-[#0a192f]"
       >
         <div
           className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full"

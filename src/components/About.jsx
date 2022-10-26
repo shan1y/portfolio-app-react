@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full pb-20 md:pb-10 lg:pb-0 md:h-screen md:flex bg-[#0a192f] text-gray-300"
+      className="w-full  md:pb-20  md:flex bg-[#0a192f] text-gray-300"
     >
       <div
         className="flex flex-col justify-center items-center w-full "
@@ -57,6 +57,7 @@ const About = () => {
                 class="text-[#8892b0]"
                 href="https://www.rockwellautomation.com/en-us.html"
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 Rockwell Automation{" "}

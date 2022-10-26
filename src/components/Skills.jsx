@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full md:h-screen md:flex bg-[#0a192f] text-gray-300"
+      className="w-full pb-20 md:flex bg-[#0a192f] text-gray-300"
     >
       {/* Container */}
       <div

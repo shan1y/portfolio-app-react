@@ -57,7 +57,7 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className="w-full h-screen md:flex bg-[#0a192f] flex flex-col justify-center items-center p-4"
+        className="w-full pb-20 md:flex bg-[#0a192f] flex flex-col justify-center items-center p-4"
       >
         <form
           onSubmit={handleSubmit}
@@ -65,7 +65,7 @@ const Contact = () => {
           data-aos="fade-up"
           method="POST"
           action="https://getform.io/f/5b7a8336-8523-4dd7-afd2-123ddb0263d5"
-          className="flex justify-center flex-col max-w-[600px] w-full h-screen"
+          className="flex justify-center flex-col max-w-[600px] w-full "
         >
           <div className="pb-8 mt-4  md:mt-0">
             <p className=" text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
