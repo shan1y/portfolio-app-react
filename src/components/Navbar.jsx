@@ -53,7 +53,7 @@ const Navbar = () => {
           <Link
             class="transition ease-in-out hover:text-[#DB2777]"
             to="about"
-            offset={0}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link
             class="transition ease-in-out hover:text-[#DB2777]"
             to="skills"
-            offset={0}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -76,7 +76,7 @@ const Navbar = () => {
           <Link
             class="transition ease-in-out hover:text-[#DB2777]"
             to="featured"
-            offset={-70}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -87,7 +87,7 @@ const Navbar = () => {
           <Link
             class="transition ease-in-out hover:text-[#DB2777]"
             to="work"
-            offset={0}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -100,6 +100,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
+            offset={-80}
           >
             Contact
           </Link>
