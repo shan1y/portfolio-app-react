@@ -21,9 +21,9 @@ const Featured = () => {
         <div className="max-w-[1000px]  w-full  gap-8 ">
           <div className=" pb-8 p-4">
             <p className="text-4xl font-bold inline-block  border-b-4 border-pink-600">
-              WIP
+              Featured
             </p>
-            <p className="py-4">Check out projects I'm currently working on:</p>
+            <p className="py-4">Check out my most recent projects</p>
             <div className="flex justiyfy-center py-4   bg-[#1b2d47] px-4 rounded-lg items-center">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="basis-1/2 ">
@@ -67,7 +67,7 @@ const Featured = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justiyfy-center py-4 my-4 bg-[#051021] px-4 rounded-lg items-center">
+            {/* <div className="flex justiyfy-center py-4 my-4 bg-[#051021] px-4 rounded-lg items-center">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="basis-1/2 md:order-last">
                   <img src={bestflix} className="max-w-3  rounded-md"></img>
@@ -111,9 +111,9 @@ const Featured = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="flex  bg-[#1b2d47] px-4 rounded-lg justiyfy-center py-4 items-center">
+            <div className="flex  bg-[#1b2d47] px-4 rounded-lg justiyfy-center py-4 mt-4 items-center">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="basis-1/2 ">
                   <img
