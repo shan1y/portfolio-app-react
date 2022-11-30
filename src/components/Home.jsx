@@ -25,7 +25,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Shannon Yazdani
         </h1>
-        <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a {" "}
       <TypeAnimation
       sequence={[
