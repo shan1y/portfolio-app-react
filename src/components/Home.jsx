@@ -33,7 +33,7 @@ const Home = () => {
       2000, // Waits 1s
         'Career-Changer', // Deletes 'One' and types 'Two'
         2000, // Waits 2s
-        'Generative Art Enthusiast',
+        'Gen. Art Enthusiast',
         2000,
          // Types 'Three' without deleting 'Two'
         () => {
