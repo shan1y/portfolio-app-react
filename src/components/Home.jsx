@@ -23,29 +23,20 @@ const Home = () => {
       >
         <p className="text-pink-600">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          Shannon Yazdani
-        </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a {" "}
-      <TypeAnimation
+        <TypeAnimation
       sequence={[
-        'Full Stack Developer', // Types 'One'
+        'Shannon Yazdani', // Types 'One'
       2000, // Waits 1s
-        'Career-Changer', // Deletes 'One' and types 'Two'
-        2000, // Waits 2s
-        'Gen. Art Enthusiast',
-        2000,
-         // Types 'Three' without deleting 'Two'
-        () => {
-          console.log('Done typing!'); // Place optional callbacks anywhere in the array
-        }
+      
       ]}
       wrapper="div"
-      cursor={true}
+       cursor={false}
       speed={1}
-      repeat={Infinity}
       style={{"display":"inline"}}
     />
+        </h1>
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+          I'm a Full Stack Developer
         </h2>
        
         <p className="text-[#8892b0] py-4 max-w-[700px]">
