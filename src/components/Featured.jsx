@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import vue1 from "../assets/projectImages/deja-vue-1.png";
 import instock from "../assets/projectImages/instock2.png";
 import bestflix from "../assets/projectImages/bestflix.png";
+import md from "../assets/projectImages/md.png"
 
 AOS.init();
 
@@ -21,7 +22,7 @@ const Featured = () => {
         <div className="max-w-[1000px]  w-full  gap-8 ">
           <div className=" pb-8 p-4">
             <p className="text-4xl font-bold inline-block  border-b-4 border-pink-600">
-              Featured
+             Projects
             </p>
             <p className="py-4">Check out my most recent projects</p>
             <div className="flex justiyfy-center py-4   bg-[#1b2d47] px-4 rounded-lg items-center">
@@ -154,6 +155,48 @@ const Featured = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-black font-bold text-lg"
+                    >
+                      Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex justiyfy-center py-4 my-4 bg-[#051021] px-4 rounded-lg items-center">
+              <div className="flex flex-col md:flex-row justify-between items-center">
+                <div className="basis-1/2 md:order-last">
+                  <img src={md} className="max-w-3  rounded-md" alt="md screenshot"></img>
+                </div>
+                <div className="flex p-4 flex-col basis-1/2 justify-center items-center">
+                  <h3 className="text-xl font-bold p-2">In-Browser Markdown Editor</h3>
+                  <p className="p-2">
+                    This web app allows for the user to create and edit the markdown of a document and see the formatted preview of the content. This project includes a dark mode toggle as well.
+                  </p>
+                  <p className="p-2">
+                    The tech stack for this project includes
+                    <span className="text-[#DB2777]"> Tailwind</span>,
+                    <span className="text-[#DB2777]"> TypeScript</span>,
+                    <span className="text-[#DB2777]"> React </span>and
+                    <span className="text-[#DB2777]"> Zustand </span> for
+                    global state management using local storage.
+                  </p>
+                  <p className="p-2">
+                    Next steps include adding both the markdown and preview of the markdown side by side in desktop view.
+                  </p>
+                  <div className="w-full flex justify-around">
+                    <a
+                      href="https://md-editor-sy.netlify.app/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-[#1b2d47]  font-bold text-lg"
+                    >
+                      Demo
+                    </a>
+                    <a
+                      href="https://github.com/shan1y/markdown-editor"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-center bg-opacity-40 rounded-lg px-4 py-2 m-2 bg-[#1b2d47] font-bold text-lg"
                     >
                       Code
                     </a>

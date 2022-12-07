@@ -40,8 +40,7 @@ const About = () => {
           </div>
           <div class="basis-1/2 flex flex-col gap-4 justify-center ">
             <p class="p-4">
-              I'm a Full Stack Developer who's currently based in the city
-              that's always buzzing, Toronto. Prior to graduating from{" "}
+              I'm a Full Stack Developer who's currently based in the east coast of Canada. I'm currently a junior software developer at Layerr.xyz, working on both front-end and back-end services with JavaScript with a sprinkle of Solidity. Prior to graduating from{" "}
               <a
                 class="text-[#8892b0]"
                 href="https://brainstation.io/?utm_keyword=brainstation&utm_network=g&utm_matchtype=e&utm_creative=482909840077&utm_target=&utm_placement=&utm_device=c&utm_campaign=11729367083&utm_adgroup=116579479809&utm_source=AdWords&utm_target_id=kwd-296950415241&gclid=Cj0KCQjwuuKXBhCRARIsAC-gM0iWvnb6YVZdXY-gdaBkpqPcGkWTrNcnOrUugot_Dz2FjYcuTMrJJQ4aAo2FEALw_wcB"

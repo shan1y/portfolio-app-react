@@ -80,10 +80,10 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Featured
+            Projects
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             class="transition ease-in-out hover:text-[#DB2777]"
             to="work"
@@ -93,7 +93,7 @@ const Navbar = () => {
           >
             Projects
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             class="transition ease-in-out hover:text-[#DB2777]"
