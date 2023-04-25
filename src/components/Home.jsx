@@ -42,8 +42,8 @@ const Home = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I specialize in building exceptional digital experiences and I'm
           passionate about leveraging code to make peoples' lives easier.
-          Currently, I’m focused on building responsive full-stack web
-          applications.
+          Currently, I’m focused on building full-stack web
+          applications with Next.js, TypeScript, TailWind, and PostgreSQL.
         </p>
         <div>
           <Link to="featured" offset={-80} smooth={true} duration={1000}>

@@ -40,7 +40,7 @@ const About = () => {
           </div>
           <div class="basis-1/2 flex flex-col gap-4 justify-center ">
             <p class="p-4">
-              I'm a Software Developer who's currently based in Northern Virginia, U.S. I'm currently working on both front-end and back-end services with TypeScript and Node, with a sprinkle of Solidity. Prior to graduating from{" "}
+              I'm a Software Developer who's currently based in Northern Virginia, U.S. At Layerr, I'm part of a team that is building tools for digital artists, enabling them to launch their digital art online and earn a livelihood while connecting with a global audience. Prior to graduating from{" "}
               <a
                 class="text-[#8892b0]"
                 href="https://brainstation.io/?utm_keyword=brainstation&utm_network=g&utm_matchtype=e&utm_creative=482909840077&utm_target=&utm_placement=&utm_device=c&utm_campaign=11729367083&utm_adgroup=116579479809&utm_source=AdWords&utm_target_id=kwd-296950415241&gclid=Cj0KCQjwuuKXBhCRARIsAC-gM0iWvnb6YVZdXY-gdaBkpqPcGkWTrNcnOrUugot_Dz2FjYcuTMrJJQ4aAo2FEALw_wcB"
