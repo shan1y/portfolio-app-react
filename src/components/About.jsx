@@ -39,7 +39,7 @@ const About = () => {
             </div>
           </div>
           <div class="basis-1/2 flex flex-col gap-4 justify-center ">
-            <p class="p-4">
+            <p class="p-2">
               I'm a Software Developer who's currently based in Northern Virginia, U.S. At Layerr, I'm part of a team that is building tools for digital artists, enabling them to launch their digital art online and earn a livelihood while connecting with a global audience. Prior to graduating from{" "}
               <a
                 class="text-[#8892b0]"
@@ -63,11 +63,11 @@ const About = () => {
               </a>
               for 3 years.
             </p>
-            <p class="p-4">
-              After engineering internships and sales roles, I've realized that
-              coding and problem solving is what I enjoyed most about my degree!
-              I'm also passionate about mentorship and doing work that brings
-              positive impact to individuals.
+            <p class="p-2">
+            Having always utilized code for productivity improvements in my engineering internships and sales roles, even when it wasn't required of me, I came to realize that coding and problem-solving were the aspects I enjoyed most about my degree. I'm also deeply passionate about mentorship and dedicated to work that brings a positive impact to individuals.
+            </p>
+            <p class="p-2">
+            If you're looking for someone who’s highly motivated and who enjoys being pushed creatively, let's chat!
             </p>
           </div>
         </div>
