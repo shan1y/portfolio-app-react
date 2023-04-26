@@ -67,7 +67,7 @@ const About = () => {
             Having always utilized code for productivity improvements in my engineering internships and sales roles, even when it wasn't required of me, I came to realize that coding and problem-solving were the aspects I enjoyed most about my degree. I'm also deeply passionate about mentorship and dedicated to work that brings a positive impact to individuals.
             </p>
             <p class="p-2">
-            If you're looking for someone who’s highly motivated and who enjoys being pushed creatively, let's chat!
+            If you're in search of a highly driven individual who thrives in creative challenges, I'd love to connect!
             </p>
           </div>
         </div>
